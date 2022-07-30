@@ -4,13 +4,17 @@ author: "余翰乔"
 date: "`r Sys.Date()`"
 output:
   beamer_presentation:
-    toc: yes
+    slide_level: 3
+    toc: true
     includes:
       in_header: header.tex
     latex_engine: xelatex
-    theme: "AnnArbor"
-    colortheme: "dolphin"
+    theme: "CambridgeUS"
+    colortheme: "beaver"
     fonttheme: "structurebold"
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
   slidy_presentation: default
   ioslides_presentation: default
 ---
