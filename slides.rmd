@@ -1,0 +1,23 @@
+---
+title: "Research Report"
+author: "余翰乔"
+date: "`r Sys.Date()`"
+output:
+  beamer_presentation:
+    toc: yes
+    includes:
+      in_header: header.tex
+    latex_engine: xelatex
+    theme: "AnnArbor"
+    colortheme: "dolphin"
+    fonttheme: "structurebold"
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, child=c('main.md')}
+```
